@@ -1,0 +1,2 @@
+obj\Debug\net8.0\Protos/Contractdata.cs \
+obj\Debug\net8.0\Protos/ContractdataGrpc.cs: Protos/Contractdata.proto

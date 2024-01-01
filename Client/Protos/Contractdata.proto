@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option csharp_namespace = "Client";
+
+service ContractDetails {
+	rpc GetContractInfo (ContractLookUpModel) returns (ContractModel);
+}
+
+message ContractLookUpModel{
+	int32 Tokens = 1;
+}
+
+message ContractModel{
+	int32 Tokens =1;
+	string tradingSymbol = 2;
+}
